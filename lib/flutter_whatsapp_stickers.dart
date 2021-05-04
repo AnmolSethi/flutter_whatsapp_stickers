@@ -7,7 +7,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
 typedef Future<void> MessageHandler(StickerPackResult action, bool status,
-    {String error});
+    {String? error});
 
 enum StickerPackResult {
   SUCCESS,

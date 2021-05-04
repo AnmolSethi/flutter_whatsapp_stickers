@@ -1,3 +1,11 @@
+## 2.0.1+11
+
+- Changed error listener to nullable type
+
+## 2.0.0+10
+
+- Null safety
+
 ## 1.0.0+4
 
 Updated gradle and pub package version
@@ -10,7 +18,7 @@ Fixed an issue where dynamic sticker packs where not being added to WhatsApp
 
 Added a new method to notify changes to sticker packs
 
-Rebuilt the Example App.  It now has two example sticker packs and displays more information
+Rebuilt the Example App. It now has two example sticker packs and displays more information
 
 Added a new example app for dynamic content showcasing how to use dynamic sticker packs
 

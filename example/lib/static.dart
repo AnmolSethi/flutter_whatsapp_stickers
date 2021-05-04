@@ -65,7 +65,7 @@ class _StaticContentState extends State<StaticContent> {
               packageName: WhatsAppPackage.Consumer,
               stickerPackIdentifier: identifier,
               stickerPackName: name,
-              listener: (action, result, {error = "Error"}) => processResponse(
+              listener: (action, result, {error}) => processResponse(
                 action: action,
                 result: result,
                 error: error,
