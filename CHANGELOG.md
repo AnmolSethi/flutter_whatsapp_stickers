@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 2.0.1+11
 
 - Changed error listener to nullable type
@@ -5,6 +6,15 @@
 ## 2.0.0+10
 
 - Null safety
+=======
+## 2.0.1+1
+
+- Animated stickers enabled
+
+## 2.0.0+0
+
+- Null Safety
+>>>>>>> 63f49090c8186c8f185c43efc92414711c2c9200
 
 ## 1.0.0+4
 
