@@ -68,7 +68,7 @@ class _StaticContentState extends State<StaticContent> {
               listener: (action, result, {error}) => processResponse(
                 action: action,
                 result: result,
-                error: error,
+                error: error ?? "",
                 successCallback: checkInstallationStatuses,
                 context: context,
               ),
